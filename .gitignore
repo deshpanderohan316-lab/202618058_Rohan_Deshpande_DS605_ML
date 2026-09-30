@@ -33,10 +33,10 @@ wheels/
 # --- Large Dataset / Model Files ---
 # Uncomment these if you DON'T want to commit large files to GitHub.
 # (GitHub has a 100MB file size limit)
-# *.csv
-# *.pkl
-# *.h5
-# *.joblib
+*.csv
+*.pkl
+*.h5
+*.joblib
 
 # --- IDE / Editor Settings ---
 .vscode/
