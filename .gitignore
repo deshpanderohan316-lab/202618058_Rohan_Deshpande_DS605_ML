@@ -1,0 +1,48 @@
+# --- Virtual Environments ---
+# This catches 'venv' folders in the root AND in any subfolders (Lab 1, Lab 4, etc.)
+venv/
+env/
+.venv/
+ENV/
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.jpg
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints/
+
+# --- Large Dataset / Model Files ---
+# Uncomment these if you DON'T want to commit large files to GitHub.
+# (GitHub has a 100MB file size limit)
+# *.csv
+# *.pkl
+# *.h5
+# *.joblib
+
+# --- IDE / Editor Settings ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# --- Environment Variables ---
+.env
